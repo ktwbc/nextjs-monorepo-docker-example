@@ -1,0 +1,11 @@
+{
+  "name": "@frontend/ui",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tslib": "^2.3.0"
+  }
+}

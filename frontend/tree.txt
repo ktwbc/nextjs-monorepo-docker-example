@@ -1,0 +1,28 @@
+ui
+├── .swcrc
+├── index.d.ts
+├── next-env.d.ts
+├── next.config.js
+├── node_modules
+│   ├── .bin
+│   │   ├── next
+│   │   └── sass
+│   ├── next -> ../../../node_modules/.pnpm/next@15.3.2_@babel+core@7.27.1_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.0/node_modules/next
+│   ├── react -> ../../../node_modules/.pnpm/react@19.1.0/node_modules/react
+│   ├── react-dom -> ../../../node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom
+│   └── tslib -> ../../../node_modules/.pnpm/tslib@2.8.1/node_modules/tslib
+├── package.json
+├── project.json
+├── public
+│   ├── .gitkeep
+│   ├── archie.jpg
+│   └── favicon.ico
+├── src
+│   └── app
+│       ├── global.css
+│       ├── layout.tsx
+│       ├── page.module.css
+│       └── page.tsx
+└── tsconfig.json
+
+10 directories, 16 files

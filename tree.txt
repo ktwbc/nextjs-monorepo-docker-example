@@ -1,0 +1,905 @@
+dist
+├── flat-ui
+│   ├── archie.jpg
+│   ├── favicon.ico
+│   ├── package.json
+│   └── server.js
+└── frontend
+    └── ui
+        ├── .next
+        │   ├── app-build-manifest.json
+        │   ├── app-path-routes-manifest.json
+        │   ├── BUILD_ID
+        │   ├── build-manifest.json
+        │   ├── cache
+        │   │   ├── .rscinfo
+        │   │   ├── .tsbuildinfo
+        │   │   ├── swc
+        │   │   │   └── plugins
+        │   │   │       └── v7_macos_aarch64_8.0.0
+        │   │   └── webpack
+        │   │       ├── client-production
+        │   │       │   ├── 0.pack
+        │   │       │   ├── index.pack
+        │   │       │   └── index.pack.old
+        │   │       ├── edge-server-production
+        │   │       │   ├── 0.pack
+        │   │       │   ├── index.pack
+        │   │       │   └── index.pack.old
+        │   │       └── server-production
+        │   │           ├── 0.pack
+        │   │           ├── index.pack
+        │   │           └── index.pack.old
+        │   ├── diagnostics
+        │   │   ├── build-diagnostics.json
+        │   │   └── framework.json
+        │   ├── export-marker.json
+        │   ├── images-manifest.json
+        │   ├── next-minimal-server.js.nft.json
+        │   ├── next-server.js.nft.json
+        │   ├── package.json
+        │   ├── prerender-manifest.json
+        │   ├── react-loadable-manifest.json
+        │   ├── required-server-files.json
+        │   ├── routes-manifest.json
+        │   ├── server
+        │   │   ├── app
+        │   │   │   ├── _not-found
+        │   │   │   │   ├── page_client-reference-manifest.js
+        │   │   │   │   ├── page.js
+        │   │   │   │   └── page.js.nft.json
+        │   │   │   ├── _not-found.html
+        │   │   │   ├── _not-found.meta
+        │   │   │   ├── _not-found.rsc
+        │   │   │   ├── index.html
+        │   │   │   ├── index.meta
+        │   │   │   ├── index.rsc
+        │   │   │   ├── page_client-reference-manifest.js
+        │   │   │   ├── page.js
+        │   │   │   └── page.js.nft.json
+        │   │   ├── app-paths-manifest.json
+        │   │   ├── chunks
+        │   │   │   ├── 17.js
+        │   │   │   └── 651.js
+        │   │   ├── functions-config-manifest.json
+        │   │   ├── interception-route-rewrite-manifest.js
+        │   │   ├── middleware-build-manifest.js
+        │   │   ├── middleware-manifest.json
+        │   │   ├── middleware-react-loadable-manifest.js
+        │   │   ├── next-font-manifest.js
+        │   │   ├── next-font-manifest.json
+        │   │   ├── pages
+        │   │   │   ├── _app.js
+        │   │   │   ├── _app.js.nft.json
+        │   │   │   ├── _document.js
+        │   │   │   ├── _document.js.nft.json
+        │   │   │   ├── _error.js
+        │   │   │   ├── _error.js.nft.json
+        │   │   │   ├── 404.html
+        │   │   │   └── 500.html
+        │   │   ├── pages-manifest.json
+        │   │   ├── server-reference-manifest.js
+        │   │   ├── server-reference-manifest.json
+        │   │   └── webpack-runtime.js
+        │   ├── standalone
+        │   │   ├── dist
+        │   │   │   └── frontend
+        │   │   │       └── ui
+        │   │   │           └── .next
+        │   │   │               ├── app-build-manifest.json
+        │   │   │               ├── app-path-routes-manifest.json
+        │   │   │               ├── BUILD_ID
+        │   │   │               ├── build-manifest.json
+        │   │   │               ├── package.json
+        │   │   │               ├── prerender-manifest.json
+        │   │   │               ├── react-loadable-manifest.json
+        │   │   │               ├── required-server-files.json
+        │   │   │               ├── routes-manifest.json
+        │   │   │               └── server
+        │   │   │                   ├── app
+        │   │   │                   ├── app-paths-manifest.json
+        │   │   │                   ├── chunks
+        │   │   │                   ├── functions-config-manifest.json
+        │   │   │                   ├── middleware-build-manifest.js
+        │   │   │                   ├── middleware-manifest.json
+        │   │   │                   ├── middleware-react-loadable-manifest.js
+        │   │   │                   ├── next-font-manifest.js
+        │   │   │                   ├── next-font-manifest.json
+        │   │   │                   ├── pages
+        │   │   │                   ├── pages-manifest.json
+        │   │   │                   ├── server-reference-manifest.js
+        │   │   │                   ├── server-reference-manifest.json
+        │   │   │                   └── webpack-runtime.js
+        │   │   ├── frontend
+        │   │   │   └── ui
+        │   │   │       ├── package.json
+        │   │   │       └── server.js
+        │   │   ├── node_modules
+        │   │   │   ├── .pnpm
+        │   │   │   │   ├── @bufbuild+protobuf@2.4.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @bufbuild
+        │   │   │   │   │           └── protobuf
+        │   │   │   │   ├── @esbuild+darwin-arm64@0.17.19
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @esbuild
+        │   │   │   │   │           └── darwin-arm64
+        │   │   │   │   ├── @img+sharp-darwin-arm64@0.33.5
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @img
+        │   │   │   │   │           ├── sharp-darwin-arm64
+        │   │   │   │   │           └── sharp-libvips-darwin-arm64 -> ../../../@img+sharp-libvips-darwin-arm64@1.0.4/node_modules/@img/sharp-libvips-darwin-arm64
+        │   │   │   │   ├── @img+sharp-libvips-darwin-arm64@1.0.4
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @img
+        │   │   │   │   │           └── sharp-libvips-darwin-arm64
+        │   │   │   │   ├── @jridgewell+gen-mapping@0.3.8
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           ├── gen-mapping
+        │   │   │   │   │           ├── set-array -> ../../../@jridgewell+set-array@1.2.1/node_modules/@jridgewell/set-array
+        │   │   │   │   │           ├── sourcemap-codec -> ../../../@jridgewell+sourcemap-codec@1.5.0/node_modules/@jridgewell/sourcemap-codec
+        │   │   │   │   │           └── trace-mapping -> ../../../@jridgewell+trace-mapping@0.3.25/node_modules/@jridgewell/trace-mapping
+        │   │   │   │   ├── @jridgewell+resolve-uri@3.1.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           └── resolve-uri
+        │   │   │   │   ├── @jridgewell+set-array@1.2.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           └── set-array
+        │   │   │   │   ├── @jridgewell+source-map@0.3.6
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           ├── gen-mapping -> ../../../@jridgewell+gen-mapping@0.3.8/node_modules/@jridgewell/gen-mapping
+        │   │   │   │   │           ├── source-map
+        │   │   │   │   │           └── trace-mapping -> ../../../@jridgewell+trace-mapping@0.3.25/node_modules/@jridgewell/trace-mapping
+        │   │   │   │   ├── @jridgewell+sourcemap-codec@1.5.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           └── sourcemap-codec
+        │   │   │   │   ├── @jridgewell+trace-mapping@0.3.25
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @jridgewell
+        │   │   │   │   │           ├── resolve-uri -> ../../../@jridgewell+resolve-uri@3.1.2/node_modules/@jridgewell/resolve-uri
+        │   │   │   │   │           ├── sourcemap-codec -> ../../../@jridgewell+sourcemap-codec@1.5.0/node_modules/@jridgewell/sourcemap-codec
+        │   │   │   │   │           └── trace-mapping
+        │   │   │   │   ├── @module-federation+error-codes@0.13.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── error-codes
+        │   │   │   │   ├── @module-federation+error-codes@0.14.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── error-codes
+        │   │   │   │   ├── @module-federation+error-codes@0.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── error-codes
+        │   │   │   │   ├── @module-federation+runtime-core@0.13.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── error-codes -> ../../../@module-federation+error-codes@0.13.1/node_modules/@module-federation/error-codes
+        │   │   │   │   │           ├── runtime-core
+        │   │   │   │   │           └── sdk -> ../../../@module-federation+sdk@0.13.1/node_modules/@module-federation/sdk
+        │   │   │   │   ├── @module-federation+runtime-core@0.14.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── error-codes -> ../../../@module-federation+error-codes@0.14.0/node_modules/@module-federation/error-codes
+        │   │   │   │   │           ├── runtime-core
+        │   │   │   │   │           └── sdk -> ../../../@module-federation+sdk@0.14.0/node_modules/@module-federation/sdk
+        │   │   │   │   ├── @module-federation+runtime-core@0.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── error-codes -> ../../../@module-federation+error-codes@0.9.1/node_modules/@module-federation/error-codes
+        │   │   │   │   │           ├── runtime-core
+        │   │   │   │   │           └── sdk -> ../../../@module-federation+sdk@0.9.1/node_modules/@module-federation/sdk
+        │   │   │   │   ├── @module-federation+runtime-tools@0.13.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── runtime -> ../../../@module-federation+runtime@0.13.1/node_modules/@module-federation/runtime
+        │   │   │   │   │           └── runtime-tools
+        │   │   │   │   ├── @module-federation+runtime@0.13.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── runtime
+        │   │   │   │   │           └── runtime-core -> ../../../@module-federation+runtime-core@0.13.1/node_modules/@module-federation/runtime-core
+        │   │   │   │   ├── @module-federation+runtime@0.14.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── runtime
+        │   │   │   │   │           └── runtime-core -> ../../../@module-federation+runtime-core@0.14.0/node_modules/@module-federation/runtime-core
+        │   │   │   │   ├── @module-federation+runtime@0.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── runtime
+        │   │   │   │   │           └── runtime-core -> ../../../@module-federation+runtime-core@0.9.1/node_modules/@module-federation/runtime-core
+        │   │   │   │   ├── @module-federation+sdk@0.13.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── sdk
+        │   │   │   │   ├── @module-federation+sdk@0.14.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── sdk
+        │   │   │   │   ├── @module-federation+sdk@0.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           └── sdk
+        │   │   │   │   ├── @module-federation+webpack-bundler-runtime@0.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @module-federation
+        │   │   │   │   │           ├── runtime -> ../../../@module-federation+runtime@0.9.1/node_modules/@module-federation/runtime
+        │   │   │   │   │           └── webpack-bundler-runtime
+        │   │   │   │   ├── @next+env@15.2.5
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @next
+        │   │   │   │   │           └── env
+        │   │   │   │   ├── @rspack+binding-darwin-arm64@1.3.10
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @rspack
+        │   │   │   │   │           └── binding-darwin-arm64
+        │   │   │   │   ├── @rspack+binding@1.3.10
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @rspack
+        │   │   │   │   │           ├── binding
+        │   │   │   │   │           └── binding-darwin-arm64 -> ../../../@rspack+binding-darwin-arm64@1.3.10/node_modules/@rspack/binding-darwin-arm64
+        │   │   │   │   ├── @rspack+core@1.3.10_@swc+helpers@0.5.15
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @module-federation
+        │   │   │   │   │       │   └── runtime-tools -> ../../../@module-federation+runtime-tools@0.13.1/node_modules/@module-federation/runtime-tools
+        │   │   │   │   │       ├── @rspack
+        │   │   │   │   │       │   ├── binding -> ../../../@rspack+binding@1.3.10/node_modules/@rspack/binding
+        │   │   │   │   │       │   ├── core
+        │   │   │   │   │       │   └── lite-tapable -> ../../../@rspack+lite-tapable@1.0.1/node_modules/@rspack/lite-tapable
+        │   │   │   │   │       └── caniuse-lite -> ../../caniuse-lite@1.0.30001718/node_modules/caniuse-lite
+        │   │   │   │   ├── @rspack+lite-tapable@1.0.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @rspack
+        │   │   │   │   │           └── lite-tapable
+        │   │   │   │   ├── @swc+core-darwin-arm64@1.5.29
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @swc
+        │   │   │   │   │           └── core-darwin-arm64
+        │   │   │   │   ├── @swc+core@1.5.29_@swc+helpers@0.5.15
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @swc
+        │   │   │   │   │           ├── core
+        │   │   │   │   │           └── core-darwin-arm64 -> ../../../@swc+core-darwin-arm64@1.5.29/node_modules/@swc/core-darwin-arm64
+        │   │   │   │   ├── @swc+helpers@0.5.15
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @swc
+        │   │   │   │   │           └── helpers
+        │   │   │   │   ├── @webassemblyjs+ast@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── ast
+        │   │   │   │   │           ├── helper-numbers -> ../../../@webassemblyjs+helper-numbers@1.13.2/node_modules/@webassemblyjs/helper-numbers
+        │   │   │   │   │           └── helper-wasm-bytecode -> ../../../@webassemblyjs+helper-wasm-bytecode@1.13.2/node_modules/@webassemblyjs/helper-wasm-bytecode
+        │   │   │   │   ├── @webassemblyjs+floating-point-hex-parser@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           └── floating-point-hex-parser
+        │   │   │   │   ├── @webassemblyjs+helper-api-error@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           └── helper-api-error
+        │   │   │   │   ├── @webassemblyjs+helper-buffer@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           └── helper-buffer
+        │   │   │   │   ├── @webassemblyjs+helper-numbers@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @webassemblyjs
+        │   │   │   │   │       │   ├── floating-point-hex-parser -> ../../../@webassemblyjs+floating-point-hex-parser@1.13.2/node_modules/@webassemblyjs/floating-point-hex-parser
+        │   │   │   │   │       │   ├── helper-api-error -> ../../../@webassemblyjs+helper-api-error@1.13.2/node_modules/@webassemblyjs/helper-api-error
+        │   │   │   │   │       │   └── helper-numbers
+        │   │   │   │   │       └── @xtuc
+        │   │   │   │   │           └── long -> ../../../@xtuc+long@4.2.2/node_modules/@xtuc/long
+        │   │   │   │   ├── @webassemblyjs+helper-wasm-bytecode@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           └── helper-wasm-bytecode
+        │   │   │   │   ├── @webassemblyjs+helper-wasm-section@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── ast -> ../../../@webassemblyjs+ast@1.14.1/node_modules/@webassemblyjs/ast
+        │   │   │   │   │           ├── helper-buffer -> ../../../@webassemblyjs+helper-buffer@1.14.1/node_modules/@webassemblyjs/helper-buffer
+        │   │   │   │   │           ├── helper-wasm-bytecode -> ../../../@webassemblyjs+helper-wasm-bytecode@1.13.2/node_modules/@webassemblyjs/helper-wasm-bytecode
+        │   │   │   │   │           ├── helper-wasm-section
+        │   │   │   │   │           └── wasm-gen -> ../../../@webassemblyjs+wasm-gen@1.14.1/node_modules/@webassemblyjs/wasm-gen
+        │   │   │   │   ├── @webassemblyjs+ieee754@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @webassemblyjs
+        │   │   │   │   │       │   └── ieee754
+        │   │   │   │   │       └── @xtuc
+        │   │   │   │   │           └── ieee754 -> ../../../@xtuc+ieee754@1.2.0/node_modules/@xtuc/ieee754
+        │   │   │   │   ├── @webassemblyjs+leb128@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @webassemblyjs
+        │   │   │   │   │       │   └── leb128
+        │   │   │   │   │       └── @xtuc
+        │   │   │   │   │           └── long -> ../../../@xtuc+long@4.2.2/node_modules/@xtuc/long
+        │   │   │   │   ├── @webassemblyjs+utf8@1.13.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           └── utf8
+        │   │   │   │   ├── @webassemblyjs+wasm-edit@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── ast -> ../../../@webassemblyjs+ast@1.14.1/node_modules/@webassemblyjs/ast
+        │   │   │   │   │           ├── helper-buffer -> ../../../@webassemblyjs+helper-buffer@1.14.1/node_modules/@webassemblyjs/helper-buffer
+        │   │   │   │   │           ├── helper-wasm-bytecode -> ../../../@webassemblyjs+helper-wasm-bytecode@1.13.2/node_modules/@webassemblyjs/helper-wasm-bytecode
+        │   │   │   │   │           ├── helper-wasm-section -> ../../../@webassemblyjs+helper-wasm-section@1.14.1/node_modules/@webassemblyjs/helper-wasm-section
+        │   │   │   │   │           ├── wasm-edit
+        │   │   │   │   │           ├── wasm-gen -> ../../../@webassemblyjs+wasm-gen@1.14.1/node_modules/@webassemblyjs/wasm-gen
+        │   │   │   │   │           ├── wasm-opt -> ../../../@webassemblyjs+wasm-opt@1.14.1/node_modules/@webassemblyjs/wasm-opt
+        │   │   │   │   │           └── wasm-parser -> ../../../@webassemblyjs+wasm-parser@1.14.1/node_modules/@webassemblyjs/wasm-parser
+        │   │   │   │   ├── @webassemblyjs+wasm-gen@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── helper-wasm-bytecode -> ../../../@webassemblyjs+helper-wasm-bytecode@1.13.2/node_modules/@webassemblyjs/helper-wasm-bytecode
+        │   │   │   │   │           ├── ieee754 -> ../../../@webassemblyjs+ieee754@1.13.2/node_modules/@webassemblyjs/ieee754
+        │   │   │   │   │           ├── leb128 -> ../../../@webassemblyjs+leb128@1.13.2/node_modules/@webassemblyjs/leb128
+        │   │   │   │   │           ├── utf8 -> ../../../@webassemblyjs+utf8@1.13.2/node_modules/@webassemblyjs/utf8
+        │   │   │   │   │           └── wasm-gen
+        │   │   │   │   ├── @webassemblyjs+wasm-opt@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── ast -> ../../../@webassemblyjs+ast@1.14.1/node_modules/@webassemblyjs/ast
+        │   │   │   │   │           ├── helper-buffer -> ../../../@webassemblyjs+helper-buffer@1.14.1/node_modules/@webassemblyjs/helper-buffer
+        │   │   │   │   │           ├── wasm-gen -> ../../../@webassemblyjs+wasm-gen@1.14.1/node_modules/@webassemblyjs/wasm-gen
+        │   │   │   │   │           ├── wasm-opt
+        │   │   │   │   │           └── wasm-parser -> ../../../@webassemblyjs+wasm-parser@1.14.1/node_modules/@webassemblyjs/wasm-parser
+        │   │   │   │   ├── @webassemblyjs+wasm-parser@1.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @webassemblyjs
+        │   │   │   │   │           ├── ast -> ../../../@webassemblyjs+ast@1.14.1/node_modules/@webassemblyjs/ast
+        │   │   │   │   │           ├── helper-api-error -> ../../../@webassemblyjs+helper-api-error@1.13.2/node_modules/@webassemblyjs/helper-api-error
+        │   │   │   │   │           ├── helper-wasm-bytecode -> ../../../@webassemblyjs+helper-wasm-bytecode@1.13.2/node_modules/@webassemblyjs/helper-wasm-bytecode
+        │   │   │   │   │           ├── ieee754 -> ../../../@webassemblyjs+ieee754@1.13.2/node_modules/@webassemblyjs/ieee754
+        │   │   │   │   │           ├── leb128 -> ../../../@webassemblyjs+leb128@1.13.2/node_modules/@webassemblyjs/leb128
+        │   │   │   │   │           ├── utf8 -> ../../../@webassemblyjs+utf8@1.13.2/node_modules/@webassemblyjs/utf8
+        │   │   │   │   │           └── wasm-parser
+        │   │   │   │   ├── @xtuc+ieee754@1.2.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @xtuc
+        │   │   │   │   │           └── ieee754
+        │   │   │   │   ├── @xtuc+long@4.2.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── @xtuc
+        │   │   │   │   │           └── long
+        │   │   │   │   ├── acorn@8.14.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── acorn
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── ajv-formats@2.1.1_ajv@8.17.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── ajv -> ../../ajv@8.17.1/node_modules/ajv
+        │   │   │   │   │       └── ajv-formats
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── ajv-keywords@5.1.0_ajv@8.17.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── ajv -> ../../ajv@8.17.1/node_modules/ajv
+        │   │   │   │   │       ├── ajv-keywords
+        │   │   │   │   │       │   ├── dist
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── fast-deep-equal -> ../../fast-deep-equal@3.1.3/node_modules/fast-deep-equal
+        │   │   │   │   ├── ajv@8.17.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── ajv
+        │   │   │   │   │       │   ├── dist
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── fast-deep-equal -> ../../fast-deep-equal@3.1.3/node_modules/fast-deep-equal
+        │   │   │   │   │       ├── fast-uri -> ../../fast-uri@3.0.6/node_modules/fast-uri
+        │   │   │   │   │       └── json-schema-traverse -> ../../json-schema-traverse@1.0.0/node_modules/json-schema-traverse
+        │   │   │   │   ├── browserslist@4.24.5
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── browserslist
+        │   │   │   │   │       │   ├── error.js
+        │   │   │   │   │       │   ├── index.js
+        │   │   │   │   │       │   ├── node.js
+        │   │   │   │   │       │   ├── package.json
+        │   │   │   │   │       │   └── parse.js
+        │   │   │   │   │       ├── caniuse-lite -> ../../caniuse-lite@1.0.30001718/node_modules/caniuse-lite
+        │   │   │   │   │       ├── electron-to-chromium -> ../../electron-to-chromium@1.5.155/node_modules/electron-to-chromium
+        │   │   │   │   │       └── node-releases -> ../../node-releases@2.0.19/node_modules/node-releases
+        │   │   │   │   ├── buffer-builder@0.2.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── buffer-builder
+        │   │   │   │   │           ├── buffer-builder.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── busboy@1.6.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── busboy
+        │   │   │   │   │       │   ├── lib
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── streamsearch -> ../../streamsearch@1.1.0/node_modules/streamsearch
+        │   │   │   │   ├── caniuse-lite@1.0.30001718
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── caniuse-lite
+        │   │   │   │   │           ├── data
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── chrome-trace-event@1.0.4
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── chrome-trace-event
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── client-only@0.0.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── client-only
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── color-convert@2.0.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── color-convert
+        │   │   │   │   │       │   ├── conversions.js
+        │   │   │   │   │       │   ├── index.js
+        │   │   │   │   │       │   ├── package.json
+        │   │   │   │   │       │   └── route.js
+        │   │   │   │   │       └── color-name -> ../../color-name@1.1.4/node_modules/color-name
+        │   │   │   │   ├── color-name@1.1.4
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── color-name
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── color-string@1.9.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── color-name -> ../../color-name@1.1.4/node_modules/color-name
+        │   │   │   │   │       ├── color-string
+        │   │   │   │   │       │   ├── index.js
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── simple-swizzle -> ../../simple-swizzle@0.2.2/node_modules/simple-swizzle
+        │   │   │   │   ├── color@4.2.3
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── color
+        │   │   │   │   │       │   ├── index.js
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── color-convert -> ../../color-convert@2.0.1/node_modules/color-convert
+        │   │   │   │   │       └── color-string -> ../../color-string@1.9.1/node_modules/color-string
+        │   │   │   │   ├── colorjs.io@0.5.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── colorjs.io
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── detect-libc@2.0.4
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── detect-libc
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── electron-to-chromium@1.5.155
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── electron-to-chromium
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           └── versions.js
+        │   │   │   │   ├── enhanced-resolve@5.18.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── enhanced-resolve
+        │   │   │   │   │       │   ├── lib
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── graceful-fs -> ../../graceful-fs@4.2.11/node_modules/graceful-fs
+        │   │   │   │   │       └── tapable -> ../../tapable@2.2.1/node_modules/tapable
+        │   │   │   │   ├── es-module-lexer@1.7.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── es-module-lexer
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── esbuild@0.17.19
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @esbuild
+        │   │   │   │   │       │   └── darwin-arm64 -> ../../../@esbuild+darwin-arm64@0.17.19/node_modules/@esbuild/darwin-arm64
+        │   │   │   │   │       └── esbuild
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── eslint-scope@5.1.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── eslint-scope
+        │   │   │   │   │       │   ├── lib
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── esrecurse -> ../../esrecurse@4.3.0/node_modules/esrecurse
+        │   │   │   │   │       └── estraverse -> ../../estraverse@4.3.0/node_modules/estraverse
+        │   │   │   │   ├── esrecurse@4.3.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── esrecurse
+        │   │   │   │   │       │   ├── esrecurse.js
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── estraverse -> ../../estraverse@5.3.0/node_modules/estraverse
+        │   │   │   │   ├── estraverse@4.3.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── estraverse
+        │   │   │   │   │           ├── estraverse.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── estraverse@5.3.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── estraverse
+        │   │   │   │   │           ├── estraverse.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── fast-deep-equal@3.1.3
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── fast-deep-equal
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── fast-uri@3.0.6
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── fast-uri
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── glob-to-regexp@0.4.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── glob-to-regexp
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── graceful-fs@4.2.11
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── graceful-fs
+        │   │   │   │   │           ├── clone.js
+        │   │   │   │   │           ├── graceful-fs.js
+        │   │   │   │   │           ├── legacy-streams.js
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           └── polyfills.js
+        │   │   │   │   ├── has-flag@4.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── has-flag
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── immutable@4.3.7
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── immutable
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── immutable@5.1.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── immutable
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── is-arrayish@0.3.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── is-arrayish
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── jest-worker@27.5.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── jest-worker
+        │   │   │   │   │       │   ├── build
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── merge-stream -> ../../merge-stream@2.0.0/node_modules/merge-stream
+        │   │   │   │   │       └── supports-color -> ../../supports-color@8.1.1/node_modules/supports-color
+        │   │   │   │   ├── json-parse-even-better-errors@2.3.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── json-parse-even-better-errors
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── json-schema-traverse@1.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── json-schema-traverse
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── loader-runner@4.3.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── loader-runner
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── merge-stream@2.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── merge-stream
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── mime-db@1.52.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── mime-db
+        │   │   │   │   │           ├── db.json
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── mime-types@2.1.35
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── mime-db -> ../../mime-db@1.52.0/node_modules/mime-db
+        │   │   │   │   │       └── mime-types
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── nanoid@3.3.11
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── nanoid
+        │   │   │   │   │           ├── non-secure
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── neo-async@2.6.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── neo-async
+        │   │   │   │   │           ├── async.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── next@15.2.5_@babel+core@7.27.1_react-dom@19.0.0_react@19.0.0__react@19.0.0_sass@1.62.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @next
+        │   │   │   │   │       │   └── env -> ../../../@next+env@15.2.5/node_modules/@next/env
+        │   │   │   │   │       ├── @swc
+        │   │   │   │   │       │   └── helpers -> ../../../@swc+helpers@0.5.15/node_modules/@swc/helpers
+        │   │   │   │   │       ├── busboy -> ../../busboy@1.6.0/node_modules/busboy
+        │   │   │   │   │       ├── caniuse-lite -> ../../caniuse-lite@1.0.30001718/node_modules/caniuse-lite
+        │   │   │   │   │       ├── next
+        │   │   │   │   │       │   ├── dist
+        │   │   │   │   │       │   ├── font
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── postcss -> ../../postcss@8.4.31/node_modules/postcss
+        │   │   │   │   │       ├── react -> ../../react@19.0.0/node_modules/react
+        │   │   │   │   │       ├── react-dom -> ../../react-dom@19.0.0_react@19.0.0/node_modules/react-dom
+        │   │   │   │   │       ├── sass -> ../../sass@1.62.1/node_modules/sass
+        │   │   │   │   │       ├── sharp -> ../../sharp@0.33.5/node_modules/sharp
+        │   │   │   │   │       └── styled-jsx -> ../../styled-jsx@5.1.6_@babel+core@7.27.1_react@19.0.0/node_modules/styled-jsx
+        │   │   │   │   ├── next@15.3.2_@babel+core@7.27.1_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── next
+        │   │   │   │   │           └── dist
+        │   │   │   │   ├── node_modules
+        │   │   │   │   │   ├── @module-federation
+        │   │   │   │   │   │   ├── runtime -> ../../@module-federation+runtime@0.14.0/node_modules/@module-federation/runtime
+        │   │   │   │   │   │   └── webpack-bundler-runtime -> ../../@module-federation+webpack-bundler-runtime@0.9.1/node_modules/@module-federation/webpack-bundler-runtime
+        │   │   │   │   │   ├── @rspack
+        │   │   │   │   │   │   └── core -> ../../@rspack+core@1.3.10_@swc+helpers@0.5.15/node_modules/@rspack/core
+        │   │   │   │   │   ├── esbuild -> ../esbuild@0.17.19/node_modules/esbuild
+        │   │   │   │   │   ├── sass-embedded -> ../sass-embedded@1.89.0/node_modules/sass-embedded
+        │   │   │   │   │   └── webpack -> ../webpack@5.99.8_@swc+core@1.5.29_@swc+helpers@0.5.15_/node_modules/webpack
+        │   │   │   │   ├── node-releases@2.0.19
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── node-releases
+        │   │   │   │   │           └── data
+        │   │   │   │   ├── picocolors@1.1.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── picocolors
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           └── picocolors.js
+        │   │   │   │   ├── postcss@8.4.31
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── nanoid -> ../../nanoid@3.3.11/node_modules/nanoid
+        │   │   │   │   │       ├── picocolors -> ../../picocolors@1.1.1/node_modules/picocolors
+        │   │   │   │   │       ├── postcss
+        │   │   │   │   │       │   ├── lib
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── source-map-js -> ../../source-map-js@1.2.1/node_modules/source-map-js
+        │   │   │   │   ├── randombytes@2.1.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── randombytes
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── react-dom@19.0.0_react@19.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── react -> ../../react@19.0.0/node_modules/react
+        │   │   │   │   │       └── react-dom
+        │   │   │   │   │           ├── cjs
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           ├── server.browser.js
+        │   │   │   │   │           ├── server.edge.js
+        │   │   │   │   │           └── static.edge.js
+        │   │   │   │   ├── react@19.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── react
+        │   │   │   │   │           ├── cjs
+        │   │   │   │   │           ├── compiler-runtime.js
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           ├── jsx-dev-runtime.js
+        │   │   │   │   │           ├── jsx-runtime.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── rxjs@7.8.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── rxjs
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           ├── operators
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── sass-embedded@1.89.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @bufbuild
+        │   │   │   │   │       │   └── protobuf -> ../../../@bufbuild+protobuf@2.4.0/node_modules/@bufbuild/protobuf
+        │   │   │   │   │       ├── buffer-builder -> ../../buffer-builder@0.2.0/node_modules/buffer-builder
+        │   │   │   │   │       ├── colorjs.io -> ../../colorjs.io@0.5.2/node_modules/colorjs.io
+        │   │   │   │   │       ├── immutable -> ../../immutable@5.1.2/node_modules/immutable
+        │   │   │   │   │       ├── rxjs -> ../../rxjs@7.8.2/node_modules/rxjs
+        │   │   │   │   │       ├── sass-embedded
+        │   │   │   │   │       │   ├── dist
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       ├── supports-color -> ../../supports-color@8.1.1/node_modules/supports-color
+        │   │   │   │   │       ├── sync-child-process -> ../../sync-child-process@1.0.2/node_modules/sync-child-process
+        │   │   │   │   │       └── varint -> ../../varint@6.0.0/node_modules/varint
+        │   │   │   │   ├── sass@1.62.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── immutable -> ../../immutable@4.3.7/node_modules/immutable
+        │   │   │   │   │       └── sass
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           ├── sass.dart.js
+        │   │   │   │   │           └── sass.default.js
+        │   │   │   │   ├── schema-utils@4.3.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── ajv -> ../../ajv@8.17.1/node_modules/ajv
+        │   │   │   │   │       ├── ajv-formats -> ../../ajv-formats@2.1.1_ajv@8.17.1/node_modules/ajv-formats
+        │   │   │   │   │       ├── ajv-keywords -> ../../ajv-keywords@5.1.0_ajv@8.17.1/node_modules/ajv-keywords
+        │   │   │   │   │       └── schema-utils
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── semver@7.7.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── semver
+        │   │   │   │   │           ├── classes
+        │   │   │   │   │           ├── functions
+        │   │   │   │   │           ├── internal
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── serialize-javascript@6.0.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── randombytes -> ../../randombytes@2.1.0/node_modules/randombytes
+        │   │   │   │   │       └── serialize-javascript
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── sharp@0.33.5
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @img
+        │   │   │   │   │       │   ├── sharp-darwin-arm64 -> ../../../@img+sharp-darwin-arm64@0.33.5/node_modules/@img/sharp-darwin-arm64
+        │   │   │   │   │       │   └── sharp-libvips-darwin-arm64 -> ../../../@img+sharp-libvips-darwin-arm64@1.0.4/node_modules/@img/sharp-libvips-darwin-arm64
+        │   │   │   │   │       ├── color -> ../../color@4.2.3/node_modules/color
+        │   │   │   │   │       ├── detect-libc -> ../../detect-libc@2.0.4/node_modules/detect-libc
+        │   │   │   │   │       ├── semver -> ../../semver@7.7.2/node_modules/semver
+        │   │   │   │   │       └── sharp
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── simple-swizzle@0.2.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── is-arrayish -> ../../is-arrayish@0.3.2/node_modules/is-arrayish
+        │   │   │   │   │       └── simple-swizzle
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── source-map-js@1.2.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── source-map-js
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           └── source-map.js
+        │   │   │   │   ├── streamsearch@1.1.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── streamsearch
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── styled-jsx@5.1.6_@babel+core@7.27.1_react@19.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── client-only -> ../../client-only@0.0.1/node_modules/client-only
+        │   │   │   │   │       ├── react -> ../../react@19.0.0/node_modules/react
+        │   │   │   │   │       └── styled-jsx
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           ├── package.json
+        │   │   │   │   │           └── style.js
+        │   │   │   │   ├── supports-color@8.1.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── has-flag -> ../../has-flag@4.0.0/node_modules/has-flag
+        │   │   │   │   │       └── supports-color
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── sync-child-process@1.0.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── sync-child-process
+        │   │   │   │   │       │   ├── dist
+        │   │   │   │   │       │   └── package.json
+        │   │   │   │   │       └── sync-message-port -> ../../sync-message-port@1.1.3/node_modules/sync-message-port
+        │   │   │   │   ├── sync-message-port@1.1.3
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── sync-message-port
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── tapable@2.2.1
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── tapable
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── terser-webpack-plugin@5.3.14_@swc+core@1.5.29_@swc+helpers@0.5.15__webpack@5.99.8_@swc+core@1.5.29_@swc+helpers@0.5.15__
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @jridgewell
+        │   │   │   │   │       │   └── trace-mapping -> ../../../@jridgewell+trace-mapping@0.3.25/node_modules/@jridgewell/trace-mapping
+        │   │   │   │   │       ├── @swc
+        │   │   │   │   │       │   └── core -> ../../../@swc+core@1.5.29_@swc+helpers@0.5.15/node_modules/@swc/core
+        │   │   │   │   │       ├── jest-worker -> ../../jest-worker@27.5.1/node_modules/jest-worker
+        │   │   │   │   │       ├── schema-utils -> ../../schema-utils@4.3.2/node_modules/schema-utils
+        │   │   │   │   │       ├── serialize-javascript -> ../../serialize-javascript@6.0.2/node_modules/serialize-javascript
+        │   │   │   │   │       ├── terser -> ../../terser@5.39.2/node_modules/terser
+        │   │   │   │   │       └── terser-webpack-plugin
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── terser@5.39.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── @jridgewell
+        │   │   │   │   │       │   └── source-map -> ../../../@jridgewell+source-map@0.3.6/node_modules/@jridgewell/source-map
+        │   │   │   │   │       ├── acorn -> ../../acorn@8.14.1/node_modules/acorn
+        │   │   │   │   │       └── terser
+        │   │   │   │   │           ├── dist
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── varint@6.0.0
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── varint
+        │   │   │   │   │           ├── decode.js
+        │   │   │   │   │           ├── encode.js
+        │   │   │   │   │           ├── index.js
+        │   │   │   │   │           ├── length.js
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── watchpack@2.4.2
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       ├── glob-to-regexp -> ../../glob-to-regexp@0.4.1/node_modules/glob-to-regexp
+        │   │   │   │   │       ├── graceful-fs -> ../../graceful-fs@4.2.11/node_modules/graceful-fs
+        │   │   │   │   │       └── watchpack
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   ├── webpack-sources@3.2.3
+        │   │   │   │   │   └── node_modules
+        │   │   │   │   │       └── webpack-sources
+        │   │   │   │   │           ├── lib
+        │   │   │   │   │           └── package.json
+        │   │   │   │   └── webpack@5.99.8_@swc+core@1.5.29_@swc+helpers@0.5.15_
+        │   │   │   │       └── node_modules
+        │   │   │   │           ├── @webassemblyjs
+        │   │   │   │           │   ├── ast -> ../../../@webassemblyjs+ast@1.14.1/node_modules/@webassemblyjs/ast
+        │   │   │   │           │   ├── wasm-edit -> ../../../@webassemblyjs+wasm-edit@1.14.1/node_modules/@webassemblyjs/wasm-edit
+        │   │   │   │           │   └── wasm-parser -> ../../../@webassemblyjs+wasm-parser@1.14.1/node_modules/@webassemblyjs/wasm-parser
+        │   │   │   │           ├── acorn -> ../../acorn@8.14.1/node_modules/acorn
+        │   │   │   │           ├── browserslist -> ../../browserslist@4.24.5/node_modules/browserslist
+        │   │   │   │           ├── chrome-trace-event -> ../../chrome-trace-event@1.0.4/node_modules/chrome-trace-event
+        │   │   │   │           ├── enhanced-resolve -> ../../enhanced-resolve@5.18.1/node_modules/enhanced-resolve
+        │   │   │   │           ├── es-module-lexer -> ../../es-module-lexer@1.7.0/node_modules/es-module-lexer
+        │   │   │   │           ├── eslint-scope -> ../../eslint-scope@5.1.1/node_modules/eslint-scope
+        │   │   │   │           ├── glob-to-regexp -> ../../glob-to-regexp@0.4.1/node_modules/glob-to-regexp
+        │   │   │   │           ├── graceful-fs -> ../../graceful-fs@4.2.11/node_modules/graceful-fs
+        │   │   │   │           ├── json-parse-even-better-errors -> ../../json-parse-even-better-errors@2.3.1/node_modules/json-parse-even-better-errors
+        │   │   │   │           ├── loader-runner -> ../../loader-runner@4.3.0/node_modules/loader-runner
+        │   │   │   │           ├── mime-types -> ../../mime-types@2.1.35/node_modules/mime-types
+        │   │   │   │           ├── neo-async -> ../../neo-async@2.6.2/node_modules/neo-async
+        │   │   │   │           ├── schema-utils -> ../../schema-utils@4.3.2/node_modules/schema-utils
+        │   │   │   │           ├── tapable -> ../../tapable@2.2.1/node_modules/tapable
+        │   │   │   │           ├── terser-webpack-plugin -> ../../terser-webpack-plugin@5.3.14_@swc+core@1.5.29_@swc+helpers@0.5.15__webpack@5.99.8_@swc+core@1.5.29_@swc+helpers@0.5.15__/node_modules/terser-webpack-plugin
+        │   │   │   │           ├── watchpack -> ../../watchpack@2.4.2/node_modules/watchpack
+        │   │   │   │           ├── webpack
+        │   │   │   │           │   ├── hot
+        │   │   │   │           │   ├── lib
+        │   │   │   │           │   ├── package.json
+        │   │   │   │           │   └── schemas
+        │   │   │   │           └── webpack-sources -> ../../webpack-sources@3.2.3/node_modules/webpack-sources
+        │   │   │   ├── next -> .pnpm/next@15.2.5_@babel+core@7.27.1_react-dom@19.0.0_react@19.0.0__react@19.0.0_sass@1.62.1/node_modules/next
+        │   │   │   └── react -> .pnpm/react@19.0.0/node_modules/react
+        │   │   └── package.json
+        │   ├── static
+        │   │   ├── 5vjbmqAvgeCXHaa8mIjL3
+        │   │   │   ├── _buildManifest.js
+        │   │   │   └── _ssgManifest.js
+        │   │   ├── chunks
+        │   │   │   ├── 2b03f945-27826e35f2ec90a4.js
+        │   │   │   ├── 788-287daea84cdc3583.js
+        │   │   │   ├── app
+        │   │   │   │   ├── _not-found
+        │   │   │   │   │   └── page-2ed6fc356488caf4.js
+        │   │   │   │   ├── layout-3903c7f3747e5584.js
+        │   │   │   │   └── page-1fc87c91405a183d.js
+        │   │   │   ├── main-0de8392b09d7a0f9.js
+        │   │   │   ├── main-app-f52b5e0672357c7c.js
+        │   │   │   ├── pages
+        │   │   │   │   ├── _app-7ac8768971319835.js
+        │   │   │   │   └── _error-970a9d3257c49f49.js
+        │   │   │   ├── polyfills-42372ed130431b0a.js
+        │   │   │   └── webpack-abf551bce28124a2.js
+        │   │   └── css
+        │   │       ├── ba8f0dac81239efb.css
+        │   │       └── ef46db3751d8e999.css
+        │   ├── trace
+        │   └── types
+        │       ├── app
+        │       │   ├── layout.ts
+        │       │   └── page.ts
+        │       ├── cache-life.d.ts
+        │       └── package.json
+        ├── .nx-helpers
+        │   ├── compiled.js
+        │   ├── compose-plugins.js
+        │   └── with-nx.js
+        ├── next.config.js
+        ├── next.config.mjs
+        ├── package.json
+        └── public
+            ├── .gitkeep
+            ├── archie.jpg
+            └── favicon.ico
+
+665 directories, 238 files

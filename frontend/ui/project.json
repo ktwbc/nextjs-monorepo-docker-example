@@ -1,0 +1,51 @@
+{
+  "name": "ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "frontend/ui",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project ui --web",
+  "targets": {
+    "build-standalone": {
+      "executor": "nx:run-commands",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "commands": [
+          "pnpm nx build ui",
+          "rm -rf dist/flat-ui",
+          "mkdir -p dist/flat-ui",
+          "cp -a dist/frontend/ui/.next/standalone/frontend/ui/* dist/flat-ui/",
+          "cp -a frontend/ui/public/* dist/flat-ui/"
+        ],
+        "parallel": false
+      }
+    },
+    "serve-standalone": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node server.js",
+        "cwd": "dist/flat-ui",
+        "env": {
+          "PORT": "3000"
+        }
+      }
+    },
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/frontend/ui",
+        "root": "frontend/ui",
+        "outputFileTracingRoot": "../../",
+        "buildLibsFromSource": true
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "ui:build",
+        "dev": true
+      }
+    }
+  }
+}

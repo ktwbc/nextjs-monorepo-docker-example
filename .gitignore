@@ -1,0 +1,70 @@
+# package directories
+node_modules
+**/node_modules
+.npm
+
+# Serverless directories
+.serverless
+**/.serverless
+**/.next
+**/build
+
+# Webpack directories
+.webpack
+
+# Esbuild directories
+.esbuild
+
+# Ignore stack.json files
+**/stack.json
+
+# production
+/build
+**/dist
+
+# testing
+coverage
+
+# Ignore Jetbrains folder settings
+.idea
+
+# local env
+.env
+.env.local
+
+# misc
+.DS_Store
+npm-debug.log*
+
+# If people use virtualenvs for python scripts
+.venv
+
+# remove files to invoke lambdas locally
+event.json
+
+# Nx caching
+nx-cache
+
+# Build cache manifests
+*.tsbuildinfo
+
+# CDK output
+**/cdk.out
+/.history
+.build
+/frontend/fullschedule/app/src/environments/environment.dev.ts-e
+/frontend/fullschedule/app/.env.dev
+/.cache/
+services/pdf/chromium*.zip
+*.log
+.log*
+/frontend/velvet/app/certificates/localhost-key.pem
+/frontend/velvet/app/certificates/localhost.pem
+/frontend/velvet/app/.open-next/
+
+.nx/cache
+.nx/workspace-data
+/frontend/freefoodhandler/app/certificates/localhost-key.pem
+/frontend/freefoodhandler/app/certificates/localhost.pem
+/services/velvet-api/openapi.json
+/tmp/services/velvet-api/\*start/tsconfig.generated.json
