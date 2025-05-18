@@ -12,10 +12,7 @@
       "options": {
         "commands": [
           "pnpm nx build ui",
-          "rm -rf dist/flat-ui",
-          "mkdir -p dist/flat-ui",
-          "cp -a dist/frontend/ui/.next/standalone/frontend/ui/* dist/flat-ui/",
-          "cp -a frontend/ui/public/* dist/flat-ui/"
+          "cp -a frontend/ui/public dist/frontend/ui/.next/standalone/frontend/ui/public"
         ],
         "parallel": false
       }
@@ -24,7 +21,7 @@
       "executor": "nx:run-commands",
       "options": {
         "command": "node server.js",
-        "cwd": "dist/flat-ui",
+        "cwd": "dist/frontend/ui/.next/standalone/frontend/ui",
         "env": {
           "PORT": "3000"
         }

@@ -44,7 +44,7 @@ export default function Index() {
                 </svg>
                 <span>You&apos;re up and running</span>
               </h2>
-              <a href="#commands"> What&apos;s next? </a>
+              <a href="#"> What&apos;s next? </a>
             </div>
             <div className="logo-container">
               <svg
