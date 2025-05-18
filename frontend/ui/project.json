@@ -12,7 +12,11 @@
       "options": {
         "commands": [
           "pnpm nx build ui",
-          "cp -a frontend/ui/public dist/frontend/ui/.next/standalone/frontend/ui/public"
+          "rm -rf dist/flat-ui",
+          "mkdir -p dist/flat-ui/.next",
+          "cp -a dist/frontend/ui/.next/standalone/frontend/ui/* dist/flat-ui/",
+          "cp -a dist/frontend/ui/.next/static dist/flat-ui/.next/static",
+          "cp -a frontend/ui/public dist/flat-ui/public"
         ],
         "parallel": false
       }
@@ -24,7 +28,8 @@
         "command": "docker build -f frontend/ui/Dockerfile -t archie-ui .",
         "cwd": "."
       }
-    },"run-docker": {
+    },
+    "run-docker": {
       "executor": "nx:run-commands",
       "options": {
         "command": "docker run -p 3000:3000 archie-ui",
@@ -35,7 +40,7 @@
       "executor": "nx:run-commands",
       "options": {
         "command": "node server.js",
-        "cwd": "dist/frontend/ui/.next/standalone/frontend/ui",
+        "cwd": "dist/flat-ui",
         "env": {
           "PORT": "3000"
         }
