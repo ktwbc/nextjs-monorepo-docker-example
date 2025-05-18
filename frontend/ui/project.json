@@ -17,6 +17,20 @@
         "parallel": false
       }
     },
+    "build-docker": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build-standalone"],
+      "options": {
+        "command": "docker build -f frontend/ui/Dockerfile -t archie-ui .",
+        "cwd": "."
+      }
+    },"run-docker": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "docker run -p 3000:3000 archie-ui",
+        "cwd": "."
+      }
+    },
     "serve-standalone": {
       "executor": "nx:run-commands",
       "options": {
