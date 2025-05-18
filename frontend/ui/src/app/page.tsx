@@ -13,7 +13,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome to Archie{' '}
+              Welcome to Archie!
               <img
                 src="/archie.jpg"
                 alt="Archie Comics"
