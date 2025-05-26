@@ -13,7 +13,9 @@
         "commands": [
           "rm -rf dist",
           "pnpm nx build ui",
-          "mv dist/frontend/ui/public dist/frontend/ui/.next/standalone/frontend/ui/"
+          "mkdir -p dist/frontend/ui/.next/standalone/frontend/ui/public",
+          "cp -a dist/frontend/ui/public/* dist/frontend/ui/.next/standalone/frontend/ui/public/",
+          "cp -a dist/frontend/ui/.next/static dist/frontend/ui/.next/standalone/dist/frontend/ui/.next"
         ],
         "parallel": false
       }
@@ -30,7 +32,10 @@
       "executor": "nx:run-commands",
       "options": {
         "command": "docker run -p 3000:3000 archie-ui",
-        "cwd": "."
+        "cwd": ".",
+        "env": {
+          "PORT": "3000"
+        }
       }
     },
     "serve-standalone": {
