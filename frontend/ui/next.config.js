@@ -1,21 +1,22 @@
-//@ts-check
+// @ts-check
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-import { composePlugins, withNx } from '@nx/next';
+const { composePlugins, withNx } = require('@nx/next');
+const path = require('node:path');
 
 /**
  * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
  **/
 const nextConfig = {
-  // Use this to set Nx-specific options
-  // See: https://nx.dev/recipes/next/next-config-setup
+  experimental: {
+    externalDir: true,
+  },
   nx: {},
   output: 'standalone',
+  outputFileTracingRoot: path.join(__dirname, '../../'),
 };
 
 const plugins = [
-  // Add more Next.js plugins to this list if needed.
   withNx,
 ];
 
-export default composePlugins(...plugins)(nextConfig);
+module.exports = composePlugins(...plugins)(nextConfig);
